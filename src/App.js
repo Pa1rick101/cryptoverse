@@ -14,7 +14,7 @@ const App = () => {
       <div className="main">
         <Layout>
           <div className="routes">
-            <switch>
+            <Switch>
               <Route exact path="/">
                 <Homepage />
               </Route>
@@ -30,7 +30,7 @@ const App = () => {
               <Route exact path="/news">
                 <News />
               </Route>
-            </switch>
+            </Switch>
           </div>
         </Layout>
 
